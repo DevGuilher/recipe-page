@@ -48,7 +48,6 @@ hr {
     padding: 2.5rem;
     border-radius: 1rem;
     background-color: hsl(0, 0%, 100%);
-    pointer-events: none;
 }
 
 /* Recipe */
@@ -66,6 +65,7 @@ hr {
     font-weight: 400;
     font-family: "Young Serif", sans-serif;
     color: hsl(24, 5%, 18%);
+    pointer-events: none;
 }
 
 .recipe-description {
