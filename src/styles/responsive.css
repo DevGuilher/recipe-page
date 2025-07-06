@@ -1,0 +1,32 @@
+/* Responsiveness for smaller desktop/tablet screens */
+@media (max-width: 680px) {
+    body {
+        padding: 2rem;
+    }
+
+    .recipe {
+        margin: 0;
+        width: 47vh;
+    }
+
+    .recipe-title {
+        font-size: 36px;
+    }
+}
+
+/* Responsiveness for mobile screens */
+@media (max-width: 420px) {
+    body {
+        padding: 0;
+        background-color: white;
+    }
+
+    .recipe {
+        margin: 0;
+        width: 47vh;
+    }
+
+    .recipe-title {
+        font-size: 36px;
+    }
+}
